@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <meta name="title" content="Restaurant">
+    <meta name="description" content="This is a Restaurant html template">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!-- preload images -->
+    <link rel="preload" as="image" href="./images/hero-slider-1.jpg">
+    <link rel="preload" as="image" href="./images/hero-slider-2.jpg">
+    <link rel="preload" as="image" href="./images/hero-slider-3.jpg">
+    <!--  -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <style>
+    </style>
+</head>
+<body id="top">
+    <!-- Preloader -->
+    <div class="preload" data-preload="">
+        <div class="circle"></div>
+        <p class="text">Grilli</p>
+    </div>
+
+    <!-- Top Bar -->
+    <div class="topbar">
+        <div class="conatiner">
+            <address class="topbar-item">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                <span class="span">Restaurant St, Delicious City, Kharkov 61000, UA</span>
+            </address>
+            <!-- /.topbar-item -->
+            <div class="separator"></div>
+            <!-- /.separator -->
+            <div class="topbar-item item-2">
+                <div class="icon">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">Daily : 8.00 am to 10.00 pm</span>
+            </div>
+            <!-- /.topbar-item item-2 -->
+            <a href="tel:+11234567890" class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">+1 123 456 7890</span>
+            </a>
+            <!-- /.topbar-item -->
+            <div class="separator"></div>
+            <!-- /.separator -->
+            <a href="mailto:booking@restorant.com" class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">booking@restaurant.com</span>
+            </a>
+            <!-- /.topbar-item -->
+        </div>
+    </div>
+    <!-- /.topbar -->
+
+    <!-- Header -->
+    <header class="header" data-header="">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./images/header/logo.svg" width="160" height="50" alt="Grilli - Home">
+            </a>
+            <!-- /.logo -->
+            <nav class="navbar" data-navbar="">
+                <button class="close-btn" aria-label="close menu" data-nav-toggler="">
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+                <!-- /.close-btn -->
+                <a href="#" class="logo">
+                    <img src="./images/header/logo.svg" width="160" height="50" alt="Grilli - Home">
+                </a>
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link hover-underline active">
+                            <div class="separator"></div>
+                            <!-- /.separetor -->
+                            <span class="span">Home</span>
+                        </a>
+                    </li>
+                    <!-- /.navbar-item Home-->
+                    <li class="navbar-item">
+                        <a href="#menu" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <!-- /.separetor -->
+                            <span class="span">Menus</span>
+                        </a>
+                    </li>
+                    <!-- /.navbar-item Menu-->
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <!-- /.separetor -->
+                            <span class="span">About Us</span>
+                        </a>
+                    </li>
+                    <!-- /.navbar-item About-->
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <!-- /.separetor -->
+                            <span class="span">Our Chefs</span>
+                        </a>
+                    </li>
+                    <!-- /.navbar-item Our Chefs-->
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <!-- /.separetor -->
+                            <span class="span">Contact</span>
+                        </a>
+                    </li>
+                    <!-- /.navbar-item Contact-->
+                </ul>
+                <!-- /.navbar-list -->
+                <div class="text-center">
+                    <p class="headline-1 navbar-title">Visit Us</p>
+                    <address class="body-4">
+                        Restaurant St, Delicious City, <br>
+                        Kharkov 61000, UA
+                    </address>
+                    <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+                    <a href="mailto:booking@grilli.com" class=" body-4 sidebar-link">booking@grilli.com</a>
+                    <div class="separator"></div>
+                    <p class="contact-label">Booking Request</p>
+                    <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+88-123-123456</a>
+                </div>
+                <!-- /.text-center -->
+            </nav>
+            <!-- /.navbar -->
+            <a href="#" class="btn btn-secondary">
+                <span class="text text-1">Find A Table</span>
+                <span class="text text-2" aria-hidden="true">Find A Table</span>
+            </a>
+            <!-- /.btn btn-secondary -->
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler="">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+            <!-- /.nav-open-btn -->
+            <div class="overlay" data-nav-toggler="" data-overlay=""></div>
+            <!-- /.overlay -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <!-- /.header -->
+    <main class="main">
+        <article>
+            <section class="hero text-center" aria-label="home" id="home">
+                <ul class="hero-slider" data-hero-slider="">
+                    <li class="slider-item active" data-hero-slider-item="">
+                        <div class="slider-bg">
+                            <img src="./images/hero-slider-1.jpg" width="1880" height="950" alt="Slider" class="img-cover">
+                        </div>
+                        <!-- /.slider-bg -->
+                        <p class="label-2 section-subtitle slider-reveal">
+                            Tradational & Hygine
+                        </p>
+                        <!-- /.label-2 section-subtitle slider-reveal -->
+                        <h1 class="display-1 hero-title slider-reveal">
+                            For the love of <br>
+                            delicious food
+                        </h1>
+                        <!-- /.display-1 hero-title slider-reveal -->
+                        <p class="body-2 hero-text slider-reveal">
+                            Come with family & feel the joy of mouthwatering food
+                        </p>
+                        <!-- /.body-2 hero-text slider-reveal -->
+                        <a href="#" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">View Our Menu</span>
+                            <span class="text text-2" aria-hidden="true">View Our Menu</span>
+                        </a>
+                        <!-- /.btn btn-primary slider-reveal -->
+                    </li>
+                    <!-- /.slider-item 1-->
+                    <li class="slider-item" data-hero-slider-item="">
+                        <div class="slider-bg">
+                            <img src="./images/hero-slider-2.jpg" width="1880" height="950" alt="Slider" class="img-cover">
+                        </div>
+                        <!-- /.slider-bg -->
+                        <p class="label-2 section-subtitle slider-reveal">
+                            delightful experience
+                        </p>
+                        <!-- /.label-2 section-subtitle slider-reveal -->
+                        <h1 class="display-1 hero-title slider-reveal">
+                            Flavors Inspired by <br>
+                            the Seasons
+                        </h1>
+                        <!-- /.display-1 hero-title slider-reveal -->
+                        <p class="body-2 hero-text slider-reveal">
+                            Come with family & feel the joy of mouthwatering food
+                        </p>
+                        <!-- /.body-2 hero-text slider-reveal -->
+                        <a href="#" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">View Our Menu</span>
+                            <span class="text text-2" aria-hidden="true">View Our Menu</span>
+                        </a>
+                        <!-- /.btn btn-primary slider-reveal -->
+                    </li>
+                    <!-- /.slider-item 2-->
+                    <li class="slider-item" data-hero-slider-item="">
+                        <div class="slider-bg">
+                            <img src="./images/hero-slider-3.jpg" width="1880" height="950" alt="Slider" class="img-cover">
+                        </div>
+                        <!-- /.slider-bg -->
+                        <p class="label-2 section-subtitle slider-reveal">
+                            amazing & delicious
+                        </p>
+                        <!-- /.label-2 section-subtitle slider-reveal -->
+                        <h1 class="display-1 hero-title slider-reveal">
+                            Where every flavor <br>
+                            tells a story
+                        </h1>
+                        <!-- /.display-1 hero-title slider-reveal -->
+                        <p class="body-2 hero-text slider-reveal">
+                            Come with family & feel the joy of mouthwatering food
+                        </p>
+                        <!-- /.body-2 hero-text slider-reveal -->
+                        <a href="#" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">View Our Menu</span>
+                            <span class="text text-2" aria-hidden="true">View Our Menu</span>
+                        </a>
+                        <!-- /.btn btn-primary slider-reveal -->
+                    </li>
+                    <!-- /.slider-item 3-->
+                </ul>
+                <!-- /.hero-slider -->
+
+                <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn="">
+                    <ion-icon name="chevron-back"></ion-icon>
+                </button>
+                <!-- /.slider-btn prev -->
+                <button class="slider-btn next" aria-label="slide to next" data-next-btn="">
+                    <ion-icon name="chevron-forward"></ion-icon>
+                </button>
+                <!-- /.slider-btn next -->
+
+                <a href="#" class="hero-btn has-after">
+                    <!-- <img src="./images/main/hero-icon.png" width="48" height="48" alt="booking icon" class="hero-icon"> -->
+                    <div class="hero-icon" alt="booking icon"></div>
+
+                    <span class="label-2 text-center span">Book A Table</span>
+                    <!-- /.label-2 text-center span -->
+                </a>
+                <!-- /.hero-btn has-after -->
+                
+            </section>
+            <!-- /.hero text-center -->
+
+            <!-- Service -->
+            <section class="section service bg-black-10 text-center" aria-label="service">
+                <div class="container">
+                    <p class="section-subtitle label-2">Flavors For Royalty</p>
+                    <!-- /.section-subtitle label-2 -->
+                    <h2 class="headline-1 section-title">We Offer Top Notch</h2>
+                    <!-- /.headline-1 section-title -->
+                    <p class="section-text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever.
+                    </p>
+                    <!-- /.section-text -->
+
+                    <ul class="grid-list">
+                        <!-- 1 li -->
+                        <li>
+                            <div class="service-card">
+                                <a href="#" class="has-before hover:shine">
+                                    <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                                        <img src="./images/main/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast" class="img-cover">
+                                    </figure>
+                                    <!-- /.card-banner img-holder -->
+                                </a>
+                                <!-- /.has-before hover:shine -->
+
+                                <div class="card-content">
+                                    <h3 class="title-4 card-title">
+                                        <a href="#">Breakfast</a>
+                                    </h3>
+                                    <!-- /.title-4 card-title -->
+                                    <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+                                    <!-- /.btn-text hover-underline label-2 -->
+                                </div>
+                                <!-- /.card-content -->
+                            </div>
+                            <!-- /.service-card -->
+                        </li>
+                        <!-- 2 li -->
+                        <li>
+                            <div class="service-card">
+                                <a href="#" class="has-before hover:shine">
+                                    <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                                        <img src="./images/main/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers" class="img-cover">
+                                    </figure>
+                                    <!-- /.card-banner img-holder -->
+                                </a>
+                                <!-- /.has-before hover:shine -->
+
+                                <div class="card-content">
+                                    <h3 class="title-4 card-title">
+                                        <a href="#">Appetizers</a>
+                                    </h3>
+                                    <!-- /.title-4 card-title -->
+                                    <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+                                    <!-- /.btn-text hover-underline label-2 -->
+                                </div>
+                                <!-- /.card-content -->
+                            </div>
+                            <!-- /.service-card -->
+                        </li>
+                        <!-- 3 li -->
+                        <li>
+                            <div class="service-card">
+                                <a href="#" class="has-before hover:shine">
+                                    <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                                        <img src="./images/main/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks" class="img-cover">
+                                    </figure>
+                                    <!-- /.card-banner img-holder -->
+                                </a>
+                                <!-- /.has-before hover:shine -->
+
+                                <div class="card-content">
+                                    <h3 class="title-4 card-title">
+                                        <a href="#">Drinks</a>
+                                    </h3>
+                                    <!-- /.title-4 card-title -->
+                                    <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+                                    <!-- /.btn-text hover-underline label-2 -->
+                                </div>
+                                <!-- /.card-content -->
+                            </div>
+                            <!-- /.service-card -->
+                        </li>
+                    </ul>
+                    <!-- /.grid-list -->
+
+                    <img src="./images/main/shape-1.png" alt="shape" class="shape shape-1 move-anim" width="246" height="412" loading="lazy">
+                    <img src="./images/main/shape-2.png" alt="shape" class="shape shape-2 move-anim" width="343" height="345" loading="lazy">
+
+                </div>
+            </section>
+            <!-- /.section bg-black-10 text-center -->
+
+            <!-- About -->
+            <section class="section about text-center" aria-labelledby="about-label" id="about">
+                <div class="container">
+                    <div class="about-content">
+                        <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+                        <!-- /#about-label.label-2 section-subtitle -->
+
+                        <h2 class="headline-1 section-title">Every Fla vor Tells a Story</h2>
+                        <!-- /.headline-1 section-title -->
+
+                        <p class="section-text">
+                            Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into.
+                        </p>
+                        <!-- /.section-text -->
+
+                        <div class="contact-label">Book Through Call</div>
+                        <!-- /.contact-label -->
+
+                        <a href="tel: +80(960)1234567" class="body-1 contact-number hover-underline">+80 (960) 123 4567</a>
+                        <!-- /.body-1 contact-number hover-underline -->
+
+                        <a href="#" class="btn btn-primary">
+                            <span class="text text-1">Read More</span>
+                            <span class="text text-2" aria-hidden="true">Read More</span>
+                        </a>
+                        <!-- /.btn btn-primary -->
+                    </div>
+                    <!-- /.about-content -->
+
+                    <figure class="about-banner">
+                        <img src="./images/main/about-banner.jpg" width="570" height="570" alt="about banner" class="w-100" loading="lazy" data-parallax-item="" data-parallax-speed="1">
+
+                        <div class="abs-img abs-img-1 has-before" data-parallax-item="" data-parallax-speed="1.75">
+                            <img src="./images/main/about-abs-image.jpg" width="285" height="285" loading="lazy" alt="Chef" class="w-100">
+                        </div>
+                        <!-- /.abs-img abs-img-1 has-before -->
+
+                        <div class="abs-img abs-img-2 has-before">
+                            <div class="badge-2"></div>
+                        </div>
+                        <!-- /.abs-img abs-img-2 has-before -->
+
+                        <!-- <img src="./images/main/shape-3.png" width="197" height="194" loading="lazy" alt="Flavoring" class="shape"> -->
+                    </figure>
+                    <!-- /.about-banner -->
+
+                    <img src="./images/main/shape-3.png" width="197" height="194" loading="lazy" alt="Flavoring" class="shape">
+
+                </div>
+            </section>
+            <!-- /.section about text-center -->
+
+            <!-- Special dish-->
+            <section class="special-dish text-center" aria-labelledby="dish-label">
+                <div class="special-dish-banner">
+                    <img src="./images/main/special-dish-banner.jpg" alt="special dish" width="940" height="900" class="img-cover" loading="lazy">
+                </div>
+                <!-- /.special-dish-banner -->
+
+                <div class="special-dish-content bg-black-10">
+                    <div class="container">
+                        <div class="sprite-div">
+                            <div class="badge-1 abs-img"></div>
+                        </div>
+                        <!-- /.sprite-div -->
+                        <p class="section-subtitle label-2">Special Dish</p>
+                        <!-- /.section-subtitle label-2 -->
+                        <h2 class="headline-1 section-title">Lobster Tortellini</h2>
+                        <!-- /.headline-1 section-title -->
+                        <p class="section-text">
+                            Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type.
+                        </p>
+                        <!-- /.section-text -->
+
+                        <div class="wrapper">
+                            <del class="del body-3">$40.00</del>
+
+                            <span class="span body-1">$20.00</span>
+                            <!-- /.span body-1 -->
+                        </div>
+                        <!-- /.wrapper -->
+
+                        <a href="#" class="btn btn-primary">
+                            <span class="text text-1">View All Menu</span>
+                            <span class="text text-2" aria-hidden="true">View All Menu</span>
+                        </a>
+                        <!-- /.btn btn-primary -->
+                    </div>
+                </div>
+                <!-- /.special-dish-content bg-black-10 -->
+
+                <img src="./images/main/shape-4.png" width="179" height="359" loading="lazy" alt="Spices" class="shape shape-1">
+
+                <img src="./images/main/shape-9.png" width="351" height="462" loading="lazy" alt="Shish kebab" class="shape shape-2">
+            </section>
+            <!-- /.special-dish text-center -->
+
+            <!-- Menu -->
+            <section class="section menu" aria-label="menu-label" id="menu">
+                <div class="container">
+
+                    <p class="section-subtitle text-center label-2">Special Selection</p>
+                    <!-- /.section-subtitle text-center label-2 -->
+
+                    <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+                    <!-- /.headline-1 section-title text-center -->
+
+                    <ul class="grid-list">
+                        <li>
+                            <div class="menu-card hover:card">
+                                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                    <img src="./images/main/menu-1.png" width="100" height="100" loading="lazy" alt="Greek Salad" class="img-cover">
+                                </figure>
+
+                                <div>
+                                    <div class="title-wrapper">
+                                        <h3 class="title-3">
+                                            <a href="#" class="card-title">Greek Salad</a>
+                                        </h3>
+
+                                        <span class="badge label-1">Seasonal</span>
+
+                                        <span class="span title-2">$25.50</span>
+                                    </div>
+                                    <!-- /.title-wrapper -->
+                                    <p class="card-text label-1">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</p>
+                                    <!-- /.card-text label-1 -->
+                                </div>
+
+                            </div>
+                            <!-- /.menu-card -->
+                        </li>
+                        <!-- 2 li -->
+                        <li>
+                            <div class="menu-card hover:card">
+                                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                    <img src="./images/main/menu-2.png" width="100" height="100" loading="lazy" alt="Lasagne" class="img-cover">
+                                </figure>
+
+                                <div>
+                                    <div class="title-wrapper">
+                                        <h3 class="title-3">
+                                            <a href="#" class="card-title">Lasagne</a>
+                                        </h3>
+
+                                        <!-- <span class="badge label-1">Seasonal</span> -->
+
+                                        <span class="span title-2">$40.00</span>
+                                    </div>
+                                    <!-- /.title-wrapper -->
+                                    <p class="card-text label-1">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
+                                    <!-- /.card-text label-1 -->
+                                </div>
+
+                            </div>
+                            <!-- /.menu-card -->
+                        </li>
+                        <!-- 3 li -->
+                        <li>
+                            <div class="menu-card hover:card">
+                                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                    <img src="./images/main/menu-3.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin" class="img-cover">
+                                </figure>
+
+                                <div>
+                                    <div class="title-wrapper">
+                                        <h3 class="title-3">
+                                            <a href="#" class="card-title">Butternut Pumpkin</a>
+                                        </h3>
+
+                                        <!-- <span class="badge label-1">Seasonal</span> -->
+
+                                        <span class="span title-2">$10.00</span>
+                                    </div>
+                                    <!-- /.title-wrapper -->
+                                    <p class="card-text label-1">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</p>
+                                    <!-- /.card-text label-1 -->
+                                </div>
+
+                            </div>
+                            <!-- /.menu-card -->
+                        </li>
+                        <!-- 4 li -->
+                        <li>
+                            <div class="menu-card hover:card">
+                                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                    <img src="./images/main/menu-4.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu" class="img-cover">
+                                </figure>
+
+                                <div>
+                                    <div class="title-wrapper">
+                                        <h3 class="title-3">
+                                            <a href="#" class="card-title">Tokusen Wagyu</a>
+                                        </h3>
+
+                                        <span class="badge label-1">New</span>
+
+                                        <span class="span title-2">$39.00</span>
+                                    </div>
+                                    <!-- /.title-wrapper -->
+                                    <p class="card-text label-1">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</p>
+                                    <!-- /.card-text label-1 -->
+                                </div>
+
+                            </div>
+                            <!-- /.menu-card -->
+                        </li>
+                        <!-- 5 li -->
+                        <li>
+                            <div class="menu-card hover:card">
+                                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                    <img src="./images/main/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas" class="img-cover">
+                                </figure>
+
+                                <div>
+                                    <div class="title-wrapper">
+                                        <h3 class="title-3">
+                                            <a href="#" class="card-title">Olivas Rellenas</a>
+                                        </h3>
+
+                                        <!-- <span class="badge label-1">New</span> -->
+
+                                        <span class="span title-2">$25.00</span>
+                                    </div>
+                                    <!-- /.title-wrapper -->
+                                    <p class="card-text label-1">Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.</p>
+                                    <!-- /.card-text label-1 -->
+                                </div>
+
+                            </div>
+                            <!-- /.menu-card -->
+                        </li>
+                        <!-- 6 li -->
+                        <li>
+                            <div class="menu-card hover:card">
+                                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                    <img src="./images/main/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish" class="img-cover">
+                                </figure>
+
+                                <div>
+                                    <div class="title-wrapper">
+                                        <h3 class="title-3">
+                                            <a href="#" class="card-title">Opu Fish</a>
+                                        </h3>
+
+                                        <!-- <span class="badge label-1">New</span> -->
+
+                                        <span class="span title-2">$49.00</span>
+                                    </div>
+                                    <!-- /.title-wrapper -->
+                                    <p class="card-text label-1">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
+                                    <!-- /.card-text label-1 -->
+                                </div>
+
+                            </div>
+                            <!-- /.menu-card -->
+                        </li>
+                    </ul>
+                    <!-- /.grid-list -->
+
+                    <p class="menu-text text-center">During winter daily from <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span></p>
+                    <!-- /.menu-text text-center -->
+
+                    <a href="#" class="btn btn-primary">
+                        <span class="text text-1">View All Menu</span>
+                        <span class="text text-2" aria-hidden="true">View All Menu</span>
+                    </a>
+                    <!-- /.btn btn-primary -->
+
+                    <img src="./images/main/shape-5.png" width="921" height="1036" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+                    <img src="./images/main/shape-6.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-3 move-anim">
+
+                    
+                </div>
+            </section>
+            <!-- /.section menu -->
+
+            <!-- Testimonials -->
+            <section class="section testi text-center has-bg-image" style="background-image: url('./images/main/testimonial-bg.jpg');" aria-label="testimonials">
+                <div class="container">
+                    <div class="quote">”</div>
+
+                    <p class="headline-2 testi-text">
+                        I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.
+                    </p>
+
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+                    <!-- /.wrapper -->
+
+                    <div class="profile">
+                        <img src="./images/main/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson" class="img">
+
+                        <p class="label-2 profile-name">Sam Jhonson</p>
+                    </div>
+                    <!-- /.profile -->
+                </div>
+            </section>
+            <!-- /.section testi text-center has-bg-image -->
+
+            <!-- Reservation -->
+            <section class="reservation">
+                <div class="container">
+
+                    <div class="form reservation-form bg-black-10">
+                        <form action="" class="form-left">
+                            <h2 class="headline-1 text-center">Online Reservation</h2>
+
+                            <p class="form-text text-center">
+                                Booking request <a href="tel:+80123123456" class="link">+80-123-123456</a> or fill out the order form
+                            </p>
+
+                            <div class="input-wrapper">
+                                <input type="text" name="name" placeholder="Your Name" id="name" autocomplete="off" class="input-field">
+
+                                <input type="tel" name="phone" placeholder="Phone Number" id="phone" autocomplete="off" class="input-field">
+                            </div>
+
+                            <div class="icon-wrapper">
+                                <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                                <select name="person" class="input-field">
+                                    <option value="1-person">1 Person</option>
+                                    <option value="2-person">2 Person</option>
+                                    <option value="3-person">3 Person</option>
+                                    <option value="4-person">4 Person</option>
+                                    <option value="5-person">5 Person</option>
+                                    <option value="6-person">6 Person</option>
+                                    <option value="7-person">7 Person</option>
+                                </select>
+
+                                <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                            </div>
+                            <!-- 2 -->
+                            <div class="icon-wrapper">
+                                <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                                <input type="date" name="reservation-date" id="date" class="input-field">
+
+                                <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                            </div>
+                            <!-- 3 -->
+                            <div class="icon-wrapper">
+                                <!-- <ion-icon name="person-outline" aria-hidden="true"></ion-icon> -->
+                                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                <select name="person" class="input-field">
+                                    <option value="08:00am">08 : 00 am</option>
+                                    <option value="09:00am">09 : 00 am</option>
+                                    <option value="10:00am">10 : 00 am</option>
+                                    <option value="11:00am">11 : 00 am</option>
+                                    <option value="12:00am">12 : 00 am</option>
+                                    <option value="01:00pm">01 : 00 pm</option>
+                                    <option value="02:00pm">02 : 00 pm</option>
+                                    <option value="03:00pm">03 : 00 pm</option>
+                                    <option value="04:00pm">04 : 00 pm</option>
+                                    <option value="05:00pm">05 : 00 pm</option>
+                                    <option value="06:00pm">06 : 00 pm</option>
+                                    <option value="07:00am">07 : 00 pm</option>
+                                    <option value="08:00am">08 : 00 pm</option>
+                                    <option value="09:00am">09 : 00 pm</option>
+                                    <option value="10:00am">10 : 00 pm</option>
+                                </select>
+
+                                <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                            </div>
+
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+                            <button type="submit" class="btn btn-secondary">
+                                <span class="text text-1">Book A Table</span>
+                                <span class="text text-2" aria-hidden="true">Book A Table</span>
+                            </button>
+                        </form>
+                        <!-- /.form-left -->
+
+                        <div class="form-right text-center" style="background-image: url('./images/main/form-pattern.png');">
+                            <h2 class="headline-1 text-center">Contact Us</h2>
+
+                            <p class="contact-label">Booking Request</p>
+
+                            <a href="tel:+80123123456" class="body-1 contact-number hover-underline">+80-123-123456</a>
+
+                            <div class="separator"></div>
+
+                            <div class="contact-label">Location</div>
+
+                            <address class="body-4">
+                                Restaurant St, Delicious City, <br>
+                                Kharkov 61000, UA
+                            </address>
+
+                            <p class="contact-label">Lunch Time</p>
+
+                            <p class="body-4">
+                                Monday to Sunday <br>
+                                11.00 am - 2.30pm
+                            </p>
+
+                            <p class="contact-label">Dinner Time</p>
+
+                            <p class="body-4">
+                                Monday to Sunday <br>
+                                05.00 pm - 10.00pm
+                            </p>
+                        </div>
+                        <!-- /.form-right text-center -->
+                    </div>
+                    <!-- /.form reservation-form bg-black-10 -->
+                </div>
+            </section>
+            <!-- /.section reservation -->
+
+            <!-- Features -->
+            <section class="section features text-center" aria-label="features">
+                <div class="container">
+
+                    <p class="section-subtitle label-2">Why Choose Us</p>
+
+                    <h2 class="headline-1 section-title">Our Strength</h2>
+
+                    <ul class="grid-list">
+                        <li class="feature-item">
+                            <div class="feature-card">
+                                <div class="card-icon">
+                                    <div class="features-icon-1"></div>
+                                </div>
+                                <!-- /.card-icon -->
+                                <h3 class="title-2 card-title">Hygienic Food</h3>
+
+                                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                            </div>
+                            <!-- /.feature-card -->
+                        </li>
+                        <!-- 2 -->
+                        <li class="feature-item">
+                            <div class="feature-card">
+                                <div class="card-icon">
+                                    <div class="features-icon-2"></div>
+                                </div>
+                                <!-- /.card-icon -->
+                                <h3 class="title-2 card-title">Fresh Environment</h3>
+
+                                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                            </div>
+                            <!-- /.feature-card -->
+                        </li>
+                        <!-- 3 -->
+                        <li class="feature-item">
+                            <div class="feature-card">
+                                <div class="card-icon">
+                                    <div class="features-icon-3"></div>
+                                </div>
+                                <!-- /.card-icon -->
+                                <h3 class="title-2 card-title">Skilled Chefs</h3>
+
+                                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                            </div>
+                            <!-- /.feature-card -->
+                        </li>
+                        <!-- 4 -->
+                        <li class="feature-item">
+                            <div class="feature-card">
+                                <div class="card-icon">
+                                    <div class="features-icon-4"></div>
+                                </div>
+                                <!-- /.card-icon -->
+                                <h3 class="title-2 card-title">Event & Party</h3>
+
+                                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+                            </div>
+                            <!-- /.feature-card -->
+                        </li>
+                    </ul>
+                    <!-- /.grid-list -->
+
+                    <img src="./images/main/shape-7.png" width="208" height="178" loading="lazy" alt="shape" class="shape shape-1">
+
+                    <img src="./images/main/shape-8.png" width="120" height="115" loading="lazy" alt="shape" class="shape shape-2">
+                </div>
+            </section>
+            <!-- /.section features text-center -->
+
+
+            <!-- Event -->
+            <section class="section event bg-black-10" aria-label="event">
+                <div class="container">
+                    <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+                    <h2 class="section-title headline-1 text-center">Upcoming Event</h2>
+
+                    <ul class="grid-list">
+                        <!-- 1 -->
+                        <li>
+                            <div class="event-card has-before hover:shine">
+                                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                                    <img src="./images/main/event-1.jpg" width="350" height="450" loading="lazy" alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                                    <time class="publish-date label-2" datetime="2024-09-15">15/09/2024</time>
+                                </div>
+                                <!--  -->
+                                <div class="card-content">
+                                    <p class="card-subtitle label-2 text-center">Food, Flavour</p>
+
+                                    <h3 class="card-title title-2 text-center">Flavour so good you’ll try to eat with your eyes.</h3>
+                                </div>
+                                <!-- /.card-content -->
+                            </div>
+                        </li>
+                        <!-- 2 -->
+                        <li>
+                            <div class="event-card has-before hover:shine">
+                                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                                    <img src="./images/main/event-2.jpg" width="350" height="450" loading="lazy" alt="Healthy Food." class="img-cover">
+
+                                    <time class="publish-date label-2" datetime="2024-09-08">08/09/2024</time>
+                                </div>
+                                <!--  -->
+                                <div class="card-content">
+                                    <p class="card-subtitle label-2 text-center">Food, Flavour</p>
+
+                                    <h3 class="card-title title-2 text-center">Healthy Food</h3>
+                                </div>
+                                <!-- /.card-content -->
+                            </div>
+                        </li>
+                        <!-- 3 -->
+                        <li>
+                            <div class="event-card has-before hover:shine">
+                                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                                    <img src="./images/main/event-3.jpg" width="350" height="450" loading="lazy" alt="Recipie." class="img-cover">
+
+                                    <time class="publish-date label-2" datetime="2024-09-03">03/09/2024</time>
+                                </div>
+                                <!--  -->
+                                <div class="card-content">
+                                    <p class="card-subtitle label-2 text-center">Food, Flavour</p>
+
+                                    <h3 class="card-title title-2 text-center">Recipie</h3>
+                                </div>
+                                <!-- /.card-content -->
+                            </div>
+                        </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-primary">
+                        <span class="text text-1">View Our Blog</span>
+
+                        <span class="text text-2" aria-hidden="true">View Our Blog</span>
+                    </a>
+                </div>
+            </section>
+            <!-- /.section event bg-black-10 -->
+        </article>
+        <!-- /article -->
+    </main>
+    <!-- /.main -->
+    <footer class="footer section has-bg-image text-center" style="background-image: url('./images/footer/footer-bg.jpg');">
+        <div class="container">
+            <div class="footer-top grid-list">
+                <div class="footer-brand has-before has-after">
+                    <a href="#" class="logo">
+                        <img src="./images/header/logo.svg" width="160" height="50" loading="lazy" alt="grilli home">
+                    </a>
+
+                    <address class="body-4">Restaurant St, Delicious City, Kharkov 61000, UA</address>
+
+                    <a href="mailto:booking@grilli.com" class="body-4 contact-link">booking@grilli.com</a>
+
+                    <a href="tel:38123123456" class="body-4 contact-link">Booking Request : +38-123-123456</a>
+
+                    <p class="body-4">
+                        Open : 09:00 am - 01:00 pm
+                    </p>
+
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+                    <!-- /.wrapper -->
+
+                    <p class="title-1">Get News & Offers</p>
+
+                    <p class="label-1">
+                        Subscribe us & Get <span class="span">25% Off.</span>
+                    </p>
+
+                    <form action="" class="input-wrapper">
+                        <div class="icon-wrapper">
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                            <input type="email" name="email_address" id="email_address" class="input-field" placeholder="Your email" autocomplete="off">
+                        </div>
+
+                        <button type="submit" class="btn btn-secondary">
+                            <span class="text text-1">Subscribe</span>
+                            <span class="text text-2" aria-hidden="true">Subscribe</span>
+                        </button>
+                    </form>
+                    <!-- /.input-wrapper -->
+                </div>
+                <!-- /.footer-brand -->
+
+                <ul class="footer-list">
+                    <!-- 1 -->
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Home</a>
+                    </li>
+                    <!-- 2 -->
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+                    </li>
+                    <!-- 3 -->
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+                    </li>
+                    <!-- 4 -->
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
+                    </li>
+                    <!-- 5 -->
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+                    </li>
+                </ul>
+                <!-- /.footer-list -->
+
+                <ul class="footer-list">
+                    <!-- 1 -->
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+                    </li>
+                    <!-- 2 -->
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+                    </li>
+                    <!-- 3 -->
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+                    </li>
+                    <!-- 4 -->
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+                    </li>
+                    <!-- 5 -->
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+                    </li>
+                </ul>
+                <!-- /.footer-list -->
+            </div>
+            <!-- /.footer-top grid-list -->
+
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 Grilli. All Rights Reserved | Crafted by <a href="https://github.com/GeorgGeo" target="_blank" class="link">Code here</a></p>
+            </div>
+            <!-- /.footer-bottom -->
+        </div>
+    </footer>
+    <!-- /.footer section has-bg-image text-center -->
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn="">
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+    <!-- /.back-top-btn -->
+
+    <!-- POPUP -->
+    <div class="popup" id="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#popup" class="popup__close">x</a>
+
+                <div class="wrapper">
+                    <!-- <div class="popup__title">Modal window</div> -->
+                    <div class="popup__img">
+                        <img src="./images/Foto-cheif.png" alt="Photo">
+                    </div>
+                </div>
+                <!--  -->
+                <div class="circle__svg2">
+                    <svg x="0px" y="0px" width="150px" height="150px" viewBox="0 0 300 300" enable-background="new 0 0 200 300" xml:space="preserve">
+                    <defs>
+                        <path id="circlePath" d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
+
+
+                    </defs>
+                    <circle cx="150" cy="150" r="75" fill="none"/>
+                    <g>
+                        <use xlink:href="#circlePath" fill="none"/>
+                        <text x="125px" id="text-dyno-width" fill="black" text-anchor="middle" font-weight="bold">
+                        <textPath xlink:href="#circlePath">НАШ ЛУЧШИЙ ШЕФ-ПОВАР</textPath>
+                        </text>
+                    </g>
+                    </svg>
+                </div>
+
+                <div class="popup__text">
+                    <span class="popup__span">Спасибо, что хотите посетить наш сайт!</span>
+                </div>
+            </div>
+            <!--  -->
+            <div class="audio">
+                <audio controls src="./audio/kofe.mp3" id="audioElement"></audio>
+            </div>
+        </div>
+        <!-- /.popup__body -->
+    </div>
+    <!-- /.popup -->
+
+    <!-- для полного подключения JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <!-- нужно после основного файла js ТОГДА ПЛАГИНЫ jquery РАБОТАЮТ -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- Ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
